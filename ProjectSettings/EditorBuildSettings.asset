@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/scenes/Menu Planta.unity
     guid: 01b47f8d333a770419fe0c0b15b8383c
   - enabled: 1
-    path: Assets/scenes/Kitchen.unity
+    path: Assets/scenes/Cocina.unity
     guid: e94bff1bc3108f047879c01aa001cf9c
   - enabled: 1
     path: Assets/scenes/Salon.unity
