@@ -1,0 +1,13 @@
+Key,Castellano,Euskera,English
+planta.titulo,Control NextMind,NextMind kontrola,NextMind control
+planta.vesti,VESTÍBULO,ATARIA,LOBBY
+planta.cocina,COCINA,SUKALDEA,KITCHEN
+planta.banio,BAÑO,KOMUNA,BATH ROOM
+planta.salon,SALÓN,EGONGELA,LIVING ROOM
+planta.comedor,COMEDOR,JANGELA,DINING ROOM
+planta.dormitorio,DORMITORIO,LOGELA,BEDROOM
+cocina.menu,MENÚ,MENUA,MENU
+cocina.armario,ARMARIO,ARMAIRUA,CUPBOARD
+cocina.encimera,ENCIMERA,ENTZIMERA,WORKTOP
+salon.persianas,PERSIANAS,PERTSIANAK,BLINDS
+salon.luces,LUCES,ARGIAK,LIGHTS

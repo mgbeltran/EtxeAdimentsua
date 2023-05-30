@@ -153,7 +153,7 @@ PrefabInstance:
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
@@ -549,7 +549,7 @@ PrefabInstance:
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
@@ -1200,7 +1200,7 @@ PrefabInstance:
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
@@ -1616,6 +1616,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605703198}
   m_CullTransparentMesh: 1
+--- !u!1 &868209189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 868209191}
+  - component: {fileID: 868209190}
+  m_Layer: 0
+  m_Name: MultiLanguage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &868209190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868209189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e25e421ac634c4492b1e0c05a31514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &868209191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868209189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.12076484, y: -0.012187162, z: -0.09342759}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &878653635
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,13 +1752,13 @@ RectTransform:
   m_Children:
   - {fileID: 504245637}
   - {fileID: 2144801495}
-  - {fileID: 1445182972}
   - {fileID: 605703197}
   - {fileID: 1483219974}
   - {fileID: 293055001}
   - {fileID: 585092317}
   - {fileID: 2060080190}
   - {fileID: 1252009305}
+  - {fileID: 1445182972}
   - {fileID: 1103527911}
   - {fileID: 1512747352}
   m_Father: {fileID: 0}
@@ -1737,6 +1780,7 @@ GameObject:
   - component: {fileID: 1103527911}
   - component: {fileID: 1103527913}
   - component: {fileID: 1103527912}
+  - component: {fileID: 1103527914}
   m_Layer: 5
   m_Name: TextArmario
   m_TagString: Untagged
@@ -1760,7 +1804,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40.439, y: 80}
+  m_AnchoredPosition: {x: -5.911, y: 80}
   m_SizeDelta: {x: 218.3, y: 43.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1103527912
@@ -1785,12 +1829,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 64
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1805,6 +1849,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103527910}
   m_CullTransparentMesh: 1
+--- !u!114 &1103527914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103527910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LocalizationKey: cocina.armario
 --- !u!1 &1198438553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,7 +2035,7 @@ PrefabInstance:
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
@@ -2374,7 +2431,7 @@ PrefabInstance:
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
@@ -2751,6 +2808,7 @@ GameObject:
   - component: {fileID: 1445182972}
   - component: {fileID: 1445182974}
   - component: {fileID: 1445182973}
+  - component: {fileID: 1445182975}
   m_Layer: 5
   m_Name: TextMenu
   m_TagString: Untagged
@@ -2770,12 +2828,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 878653639}
-  m_RootOrder: 2
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -881.4, y: 310.7}
-  m_SizeDelta: {x: 218.3, y: 85.6}
+  m_AnchoredPosition: {x: -892.43005, y: 314.6}
+  m_SizeDelta: {x: 290.44, y: 82.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445182973
 MonoBehaviour:
@@ -2804,7 +2862,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 64
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -2819,6 +2877,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445182971}
   m_CullTransparentMesh: 1
+--- !u!114 &1445182975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445182971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LocalizationKey: cocina.menu
 --- !u!1001 &1483219973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2849,7 +2920,7 @@ PrefabInstance:
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1391980575429665943, guid: 5a03d815513271a479ed2cd541302527,
         type: 3}
@@ -3276,6 +3347,7 @@ GameObject:
   - component: {fileID: 1512747352}
   - component: {fileID: 1512747354}
   - component: {fileID: 1512747353}
+  - component: {fileID: 1512747355}
   m_Layer: 5
   m_Name: TextEncimera
   m_TagString: Untagged
@@ -3299,7 +3371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40.438988, y: -423}
+  m_AnchoredPosition: {x: 1, y: -423}
   m_SizeDelta: {x: 218.3, y: 85.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1512747353
@@ -3324,12 +3396,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 64
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3344,6 +3416,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512747351}
   m_CullTransparentMesh: 1
+--- !u!114 &1512747355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512747351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LocalizationKey: cocina.encimera
 --- !u!1 &1647793406
 GameObject:
   m_ObjectHideFlags: 0

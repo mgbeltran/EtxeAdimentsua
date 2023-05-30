@@ -2294,6 +2294,7 @@ GameObject:
   - component: {fileID: 940878721}
   - component: {fileID: 940878723}
   - component: {fileID: 940878722}
+  - component: {fileID: 940878724}
   m_Layer: 5
   m_Name: TextPersianas
   m_TagString: Untagged
@@ -2317,7 +2318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -774, y: -118}
+  m_AnchoredPosition: {x: -805.41, y: -114}
   m_SizeDelta: {x: 218.3, y: 85.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940878722
@@ -2347,7 +2348,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 64
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -2362,6 +2363,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940878720}
   m_CullTransparentMesh: 1
+--- !u!114 &940878724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940878720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LocalizationKey: salon.persianas
 --- !u!1 &1116858930
 GameObject:
   m_ObjectHideFlags: 0
@@ -2373,6 +2387,7 @@ GameObject:
   - component: {fileID: 1116858931}
   - component: {fileID: 1116858933}
   - component: {fileID: 1116858932}
+  - component: {fileID: 1116858934}
   m_Layer: 5
   m_Name: TextLuces
   m_TagString: Untagged
@@ -2396,7 +2411,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 208, y: 197}
+  m_AnchoredPosition: {x: 146, y: 201}
   m_SizeDelta: {x: 218.3, y: 85.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1116858932
@@ -2426,7 +2441,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 64
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -2441,6 +2456,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1116858930}
   m_CullTransparentMesh: 1
+--- !u!114 &1116858934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116858930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LocalizationKey: salon.luces
 --- !u!1 &1198438553
 GameObject:
   m_ObjectHideFlags: 0
@@ -3387,6 +3415,7 @@ GameObject:
   - component: {fileID: 1445182972}
   - component: {fileID: 1445182974}
   - component: {fileID: 1445182973}
+  - component: {fileID: 1445182975}
   m_Layer: 5
   m_Name: TextMenu
   m_TagString: Untagged
@@ -3410,8 +3439,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 845, y: 271}
-  m_SizeDelta: {x: 218.3, y: 85.6}
+  m_AnchoredPosition: {x: 832, y: 269}
+  m_SizeDelta: {x: 247.7, y: 85.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445182973
 MonoBehaviour:
@@ -3440,7 +3469,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 64
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3455,6 +3484,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445182971}
   m_CullTransparentMesh: 1
+--- !u!114 &1445182975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445182971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2404a37f3bd75444aa4ad05d0f228347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LocalizationKey: cocina.menu
 --- !u!1 &1647793406
 GameObject:
   m_ObjectHideFlags: 0
